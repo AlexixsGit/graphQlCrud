@@ -16,3 +16,9 @@
 <img src="images/queryExample.png"
      alt="Query example in apollo server studio"
      style="float: left; margin-right: 10px;" />
+
+* Add Person usin Mutation in graphQl
+
+<img src="images/addPersonExample.png"
+     alt="Add person example in apollo server studio"
+     style="float: left; margin-right: 10px;" />

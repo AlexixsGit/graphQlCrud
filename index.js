@@ -1,6 +1,6 @@
 
 const { ApolloServer, gql } = require('apollo-server');
-const uuid = require('uuid')
+const {uuid} = require('uuid')
 
 const persons = [
     {
@@ -60,8 +60,8 @@ const resolver = {
         }
     },
     Mutation: {
-        addPerson: (root, args)=>{
-            const person = {...args, id: uuid() }
+        addPerson: (root, args) => {
+            const person = { ...args, id: uuid }
             persons.push(person)
             return person
         }
